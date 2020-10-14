@@ -317,14 +317,18 @@ footer{
       height:auto;
       .logo{
          font-size: 1.2em;
-         padding:10px;
+         padding:7px;
       }
       .icons i{
          font-size: 20px;
          padding-bottom: 10px;
       }
    }
-   .level-1 img{
+   .level-1
+   .fashion-text h2{
+      font-size: 2em;
+   }
+    img{
       width:95%;
    }
    .level-2 .latest{
@@ -373,7 +377,14 @@ footer{
       width:80%;
    }
 
-   .level-2 .latest{
+   .level-2 
+   h2{
+       text-align:center;
+       font-size:1.5em;
+       color:orange;
+         
+         }
+   .latest{
       display:block;
       .latest-img{
          margin:17px 13px;
@@ -381,5 +392,8 @@ footer{
            width: 100%;
          }
       }
+   }
+   footer p{
+      font-size: 15px;
    }
 }
