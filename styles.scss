@@ -103,6 +103,7 @@ header{
       text-align:center;
       font-size:2em;
       color:$main-color;
+      font-style: italic;
    
    }
    .latest{
@@ -333,9 +334,11 @@ footer{
    }
    .level-2 
    h2{
-      font-size: 1.8em;
-      color:orange;
-   }
+       text-align:center;
+       font-size:1.5em;
+       color:orange;
+         
+         }
    .latest{
           display: block;
           overflow-x:hidden;

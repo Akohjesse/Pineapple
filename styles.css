@@ -127,6 +127,7 @@ header .icons I {
   text-align: center;
   font-size: 2em;
   color: #947cb8;
+  font-style: italic;
 }
 
 .level-2 .latest {
@@ -384,7 +385,8 @@ footer p:hover {
   }
   .level-2
 h2 {
-    font-size: 1.8em;
+    text-align: center;
+    font-size: 1.5em;
     color: orange;
   }
   .latest {
