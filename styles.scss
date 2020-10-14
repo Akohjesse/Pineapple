@@ -275,7 +275,7 @@ footer{
       width:50%;
    }
    footer p{
-      font-size:18px;
+      font-size:16px;
    }
    .ri-arrow-right-s-line{
       display:none;
@@ -302,7 +302,6 @@ footer{
       height:95%;
    }
    .level-2 {
-      display:block;
       img{
       height:100%;
    }
@@ -316,12 +315,21 @@ footer{
    header{
       display:block;
       height:auto;
+      .logo{
+         font-size: 1.2em;
+         padding:10px;
+      }
+      .icons i{
+         font-size: 20px;
+         padding-bottom: 10px;
+      }
    }
    .level-1 img{
       width:95%;
    }
    .level-2 .latest{
           display: block;
+          overflow-x:hidden;
              .latest-img{
                  margin:17px 13px;
                  img{
@@ -344,6 +352,9 @@ footer{
    footer{
       display:block;
       text-align: center;
+      .part2{
+         margin:20px;
+      }
    }
 }
 @media only screen and (max-width:360px){

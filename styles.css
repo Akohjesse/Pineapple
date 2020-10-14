@@ -325,7 +325,7 @@ footer p:hover {
     width: 50%;
   }
   footer p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .ri-arrow-right-s-line {
     display: none;
@@ -354,9 +354,6 @@ footer p:hover {
   .level-1 img {
     height: 95%;
   }
-  .level-2 {
-    display: block;
-  }
   .level-2 img {
     height: 100%;
   }
@@ -370,11 +367,20 @@ footer p:hover {
     display: block;
     height: auto;
   }
+  header .logo {
+    font-size: 1.2em;
+    padding: 10px;
+  }
+  header .icons i {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
   .level-1 img {
     width: 95%;
   }
   .level-2 .latest {
     display: block;
+    overflow-x: hidden;
   }
   .level-2 .latest .latest-img {
     margin: 17px 13px;
@@ -396,6 +402,9 @@ footer p:hover {
   footer {
     display: block;
     text-align: center;
+  }
+  footer .part2 {
+    margin: 20px;
   }
 }
 
