@@ -376,47 +376,56 @@ footer p:hover {
     font-size: 20px;
     padding-bottom: 10px;
   }
+  .level-1 img {
+    width: 90%;
+  }
   .level-1
 .fashion-text h2 {
     font-size: 2.8em;
   }
-  img {
-    width: 95%;
-  }
-  .level-2
+}
+
+.level-2
 h2 {
-    text-align: center;
-    font-size: 1.5em;
-    color: orange;
-  }
-  .latest {
-    display: block;
-    overflow-x: hidden;
-  }
-  .latest .latest-img {
-    margin: 17px 13px;
-  }
-  .latest .latest-img img {
-    width: 100%;
-    height: 100%;
-  }
-  #About {
-    margin: 20px 20px;
-  }
-  #About .abt-info {
-    max-width: 100%;
-    font-size: 16px;
-  }
-  #About img {
-    width: 60 #About img;
-  }
-  footer {
-    display: block;
-    text-align: center;
-  }
-  footer .part2 {
-    margin: 20px;
-  }
+  text-align: center;
+  font-size: 1.5em;
+  color: orange;
+}
+
+.latest {
+  display: block;
+  overflow-x: hidden;
+}
+
+.latest .latest-img {
+  margin: 17px 13px;
+}
+
+.latest .latest-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#About {
+  margin: 20px 20px;
+}
+
+#About .abt-info {
+  max-width: 100%;
+  font-size: 16px;
+}
+
+#About img {
+  width: 60 #About img;
+}
+
+footer {
+  display: block;
+  text-align: center;
+}
+
+footer .part2 {
+  margin: 20px;
 }
 
 @media only screen and (max-width: 360px) {

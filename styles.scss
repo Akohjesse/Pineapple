@@ -325,13 +325,14 @@ footer{
          padding-bottom: 10px;
       }
    }
+   .level-1 img{
+      width:90%;
+   }
    .level-1
    .fashion-text h2{
       font-size: 2.8em;
    }
-    img{
-      width:95%;
-   }
+}
    .level-2 
    h2{
        text-align:center;
@@ -368,7 +369,6 @@ footer{
          margin:20px;
       }
    }
-}
 @media only screen and (max-width:360px){
    header{
       height:auto;
