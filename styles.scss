@@ -1,0 +1,350 @@
+$main-color:#947cb8;;
+
+  *, body{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif; 
+}
+header{
+   display:flex;
+   justify-content: space-around;
+   height:13vh;
+   text-align: center;
+  position:fixed;
+  top:0px;
+  border-bottom:0.7px solid rgb(199, 190, 190);
+//   box-shadow:  0 2px 2px 0 grey;
+  width:100%;
+  background-color:white;
+  z-index:10;
+   .logo{
+      font-size:1.5em;
+      flex:1;
+      color:$main-color;
+      text-shadow: 4px 4px rgb(196, 191, 191);
+   }
+   nav {
+      align-self: center;
+      flex:2;
+      ul {
+         display:flex;
+           li{
+              padding:0 30px;
+             list-style: none;
+                   a{
+                     text-decoration:none;
+                      color:rgb(38, 44, 56);
+                      padding:10px 3px;
+                      &:hover{
+                         background:rgb(66, 68, 161);
+                         color:white;
+                      }
+                  }
+            }
+        }
+  }
+   .icons{
+     align-self: center;
+      order:3;
+      flex:1;
+    I{
+      font-size:25px;
+      padding:15px;
+     
+     }
+  }
+   
+}
+.level-1{
+   display:flex;
+  
+   
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  max-width: 80%;
+   margin:100px auto 60px auto;
+   .fashion-text{
+      padding: 40px 30px;
+      text-align:center;
+      h2{
+         font-size:3em;
+         font-weight:500;
+         text-align: center;
+         line-height:50px;
+        
+      }
+      p{
+         text-align: center;
+         margin:30px 40px;
+         font-size:18px;
+         font-weight:500;
+         font-family:'segoe script';
+      }
+      a{
+         text-align:center;
+         text-decoration:none;
+         color:#f0e3fd;
+         padding:15px;
+         background:#2e1b49;
+         border-radius:12px;
+
+      }
+   }
+   img{
+      width:30%;
+   }
+}
+.level-2 {
+ 
+   h2{
+      text-align:center;
+      font-size:2em;
+      color:$main-color;
+   
+   }
+   .latest{
+      display:flex;
+     overflow-x: scroll;
+     scroll-behavior: smooth;
+     margin:20px;
+     .latest-img{
+      height:100%;
+      margin:0 13px;
+      border:0.5px solid rgb(194, 166, 166);
+        img{
+         height:70vh;
+          }
+        h3{
+         font-size:1.7em;
+         text-align:center;
+         font-family: 'Ruthie', cursive;
+        }
+       p{
+         text-align: center;
+       }
+     }
+     &::-webkit-scrollbar{
+        display:none;
+     }
+    }
+    
+    .container:hover img{
+    filter: blur(2px);
+    }
+    
+    .container:hover .text{
+       opacity:1;
+    }
+
+    
+    .text {
+      color: rgb(253, 255, 251);
+      font-size: 26px;
+      font-weight:600;
+      position:relative;
+      top:-250px;
+      left:180px;
+      opacity:0;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      &:hover{
+         color:orange;
+      }
+    }
+   }
+   .arrow-right{
+      padding:30px;
+    
+      .ri-arrow-right-s-line{
+         font-size:60px;
+         background:linear-gradient(rgb(1, 22, 22), rgb(2, 37, 37));
+         border-radius: 50%;
+         color:whitesmoke;
+         position:absolute;
+         top:150%;
+         left:90%;
+   } 
+}
+#About{
+   display:flex;
+   background-image:url(https://t4.ftcdn.net/jpg/02/55/02/31/240_F_255023186_b3j6FkcPck1sibHidJLecnkOPhS8WxSx.jpg);
+   background-repeat:no-repeat;
+   background-position-x: right;
+   background-position-y: top;
+    margin:60px 40px;
+   border:1px solid whitesmoke;
+   box-shadow:2px 0px 90px $main-color;
+
+   .abt-info{
+      align-self:center;
+      max-width:60%;
+      font-size:1.2em;
+      align-self:left;
+       button{
+          opacity:1;
+       }
+      a{
+         text-decoration: none;
+         text-align:center;
+         color:orangered;
+         &:hover {
+               color:$main-color;
+         }
+      }
+
+   }
+}
+footer{
+   background:$main-color;
+   display:flex;
+   justify-content:space-evenly;
+   padding:10px;
+   h2{
+      font-size:1.9em;
+      color:rgb(159, 255, 15);
+      &:hover{
+         color:orangered;
+      }
+   }
+   i{
+      font-size:20px;
+      padding:5px;
+      color:rgb(0, 0, 0);
+   }
+   p{
+      color:rgb(0, 0, 0);
+      &:hover{
+         color:white;
+      }
+   }
+}
+// Tablet view
+@media only screen and (max-width: 1060px) {
+   header {
+     .logo{
+        font-size:1.3em;
+     }
+     nav{
+        ul{
+           li{
+              padding:0 20px;
+           }
+        }
+     }
+   }
+   .level-1{
+      max-width:90%;
+       .fashion-text p{
+          margin:30px 20px;
+       }
+   }
+   .level-2 .latest .latest-img img{
+      height:55vh;
+   }
+#About{
+  background-image: none;
+  .abt-info{
+   max-width:80%;
+  }
+ }
+}
+
+@media only screen and (max-width:952px){
+   header{
+      align-items:center;
+      nav{
+         display:none;
+      }
+   }
+   .level-1{
+      display:block;
+      height:auto;
+      text-align:center;
+      margin:120px auto 60px auto;
+      img{
+         width:50%;
+      }
+      .fashion-text p{
+         font-size:20px;
+      }
+   }
+   #About img{
+      width:50%;
+   }
+   footer p{
+      font-size:18px;
+   }
+   .ri-arrow-right-s-line{
+      display:none;
+   }
+}
+@media only screen and (max-width:758px){
+   #About{
+      display:block;
+      text-align: center;
+      .abt-info{
+        padding:10px;
+        max-width:95%;
+        font-size:1.3em;
+        align-self: center;
+      }
+   }
+   .level-2 img{
+      height:40vh;
+   }
+}
+@media only screen and (max-width:520px){
+   .level-1 img{
+      width:70%;
+   }
+   
+}
+@media only screen and (max-width:480px){
+   header{
+      display:block;
+      .logo{
+         margin-bottom: 7px;
+      }
+      .icons i{
+         padding-bottom: 25px;
+      }
+   }
+   #About{
+      .abt-info{
+        max-width:100%;
+      }
+      img{
+         width:60&;
+      }
+   }
+   footer{
+      display:block;
+      text-align: center;
+   }
+}
+@media only screen and (max-width:480px){
+   .level-1 img{
+      width:95%;
+   }
+   .level-1 .fashion-text {
+          padding:40px 20px;
+                       h2{
+                          font-size: 2.5em;
+                           }}
+   #About img{
+      width:80%;
+   }
+
+   .level-2 .latest{
+      display:block;
+      .latest-img{
+         margin:17px 13px;
+         img{
+           width: 100%;
+         }
+      }
+   }
+}
