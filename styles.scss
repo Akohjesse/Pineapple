@@ -326,12 +326,17 @@ footer{
    }
    .level-1
    .fashion-text h2{
-      font-size: 2em;
+      font-size: 2.8em;
    }
     img{
       width:95%;
    }
-   .level-2 .latest{
+   .level-2 
+   h2{
+      font-size: 1.8em;
+      color:orange;
+   }
+   .latest{
           display: block;
           overflow-x:hidden;
              .latest-img{
