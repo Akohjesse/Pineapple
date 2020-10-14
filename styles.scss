@@ -101,9 +101,9 @@ header{
  
    h2{
       text-align:center;
-      font-size:2em;
-      color:$main-color;
       font-style: italic;
+      font-size:1.7em;
+      color:orangered;
    
    }
    .latest{
@@ -318,7 +318,7 @@ footer{
       height:auto;
       .logo{
          font-size: 1.2em;
-         padding:7px;
+         padding:10px;
       }
       .icons i{
          font-size: 20px;
@@ -326,21 +326,12 @@ footer{
       }
    }
    .level-1 img{
-      width:90%;
+      width:95%;
    }
-   .level-1
-   .fashion-text h2{
-      font-size: 2.8em;
+.level-1 .fashion-text{
+      padding:40px 0px;
    }
-}
-   .level-2 
-   h2{
-       text-align:center;
-       font-size:1.5em;
-       color:orange;
-         
-         }
-   .latest{
+   .level-2 .latest{
           display: block;
           overflow-x:hidden;
              .latest-img{
@@ -369,6 +360,7 @@ footer{
          margin:20px;
       }
    }
+}
 @media only screen and (max-width:360px){
    header{
       height:auto;
@@ -385,14 +377,7 @@ footer{
       width:80%;
    }
 
-   .level-2 
-   h2{
-       text-align:center;
-       font-size:1.5em;
-       color:orange;
-         
-         }
-   .latest{
+   .level-2 .latest{
       display:block;
       .latest-img{
          margin:17px 13px;
@@ -400,8 +385,5 @@ footer{
            width: 100%;
          }
       }
-   }
-   footer p{
-      font-size: 15px;
    }
 }
