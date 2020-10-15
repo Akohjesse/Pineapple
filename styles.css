@@ -277,6 +277,46 @@ footer p:hover {
   color: white;
 }
 
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background:#130c1d;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+
+
 @media only screen and (max-width: 1060px) {
   header .logo {
     font-size: 1.3em;
@@ -401,7 +441,7 @@ footer p:hover {
     font-size: 16px;
   }
   #About img {
-    width: 60 #About img;
+    width: 60%;
   }
   footer {
     display: block;
