@@ -491,5 +491,8 @@ footer p:hover {
   .intro-text{
     font-size: 1.2rem;
   }
+  .intro{
+     text-align: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
