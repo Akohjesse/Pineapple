@@ -277,47 +277,6 @@ footer p:hover {
   color: white;
 }
 
-
-.intro {
-  background: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index:20;
-}
-.slider {
-  background:#130c1d;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-}
-
-.intro-text {
-  color: rgb(233, 233, 233);
-  font-family: "Heebo", sans-serif;
-  font-size: 3rem;
-}
-
-.hide {
-  background: black;
-  overflow: hidden;
-}
-
-.hide span {
-  transform: translateY(100%);
-  display: inline-block;
-}
-
-
-
 @media only screen and (max-width: 1060px) {
   header .logo {
     font-size: 1.3em;
@@ -390,11 +349,7 @@ footer p:hover {
   .level-2 img {
     height: 40vh;
   }
-  .intro-text{
-    font-size: 2.4rem;
-  }
 }
-
 
 @media only screen and (max-width: 520px) and (max-height: 540px) {
   .level-1 img {
@@ -405,9 +360,6 @@ footer p:hover {
   }
   #abt-info {
     font-size: 17px;
-  }
-  .intro-text{
-    font-size: 2rem;
   }
 }
 
@@ -449,7 +401,7 @@ footer p:hover {
     font-size: 16px;
   }
   #About img {
-    width: 60%;
+    width: 60 #About img;
   }
   footer {
     display: block;
@@ -457,9 +409,6 @@ footer p:hover {
   }
   footer .part2 {
     margin: 20px;
-  }
-  .intro-text{
-    font-size: 1.5rem;
   }
 }
 
@@ -487,12 +436,6 @@ footer p:hover {
   }
   .level-2 .latest .latest-img img {
     width: 100%;
-  }
-  .intro-text{
-    font-size: 1.2rem;
-  }
-  .intro{
-     text-align: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */
